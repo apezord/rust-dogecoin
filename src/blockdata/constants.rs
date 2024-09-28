@@ -46,8 +46,12 @@ pub const PUBKEY_ADDRESS_PREFIX_MAIN: u8 = 0x1e;
 pub const SCRIPT_ADDRESS_PREFIX_MAIN: u8 = 0x16; // 0x05
 /// Test (tesnet, signet, regtest) pubkey address prefix.
 pub const PUBKEY_ADDRESS_PREFIX_TEST: u8 = 0x71; 
-/// Test (tesnet, signet, regtest) script address prefix.
+/// Test (tesnet, signet) script address prefix.
 pub const SCRIPT_ADDRESS_PREFIX_TEST: u8 = 0xc4;
+/// Regtest (regtest) pubkey address prefix.
+pub const PUBKEY_ADDRESS_PREFIX_REGTEST: u8 = 0x6f;
+/// Regtest (regtest) script address prefix.
+pub const SCRIPT_ADDRESS_PREFIX_REGTEST: u8 = 0xc4;
 /// The maximum allowed script size.
 pub const MAX_SCRIPT_ELEMENT_SIZE: usize = 520;
 /// How may blocks between halvings.
